@@ -1,0 +1,32 @@
+@startuml
+
+entity "Player" {
+    
+}
+
+entity "Game" {
+ 
+}
+
+Player ||--|| Game : Joga
+
+entity "Mulher" {
+  
+}
+
+entity "Homem" {
+}
+
+Mulher ||--|{ Homem: Ama
+
+entity "Aluno" as Aluno {
+  
+}
+
+entity "Salas" {
+ 
+}
+
+Aluno }|--|{ Salas: Estudam
+
+@enduml
